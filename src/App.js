@@ -29,12 +29,11 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-
-    <div class="box">
-      <img src="img/deepak_kheerganga_rock.jpeg" alt="" class="box-img box_pic" />
+    <div className="box">
+      <img src="img/deepak_kheerganga_rock.jpeg" alt="" className="box-img box_pic" />
       <h1>
         Deepak Bharti
-        <span class="dbads"> </span>
+        <span className="dbads"> </span>
       </h1>
       <h5>
         Software Engineer @collegedunia
@@ -44,27 +43,27 @@ function App() {
         Automated the onboarding process @collegedunia, it's on clicks now.
       </p>
       <ul>
-        <li class="social_links resume">
+        <li className="social_links resume">
           <a href="img/DeepakBharti.pdf">
             <FontAwesomeIcon icon={faAddressBook} />
           </a>
         </li> 
-        <li class="social_links github">
+        <li className="social_links github">
           <a href="https://github.com/dbads/">
           <FontAwesomeIcon icon={faGithubAlt} />
           </a>
         </li>
-        <li class="social_links linkedin">
+        <li className="social_links linkedin">
           <a href="https://www.linkedin.com/in/dbads/">
           <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
         </li>
-        <li class="social_links twitter">
+        <li className="social_links twitter">
           <a href="https://twitter.com/_dbads">
           <FontAwesomeIcon icon={faTwitter} />
           </a>
         </li>
-        <li class="social_links quora">
+        <li className="social_links quora">
           <a href="https://www.quora.com/profile/Deepak-Bharti-16">
           <FontAwesomeIcon icon={faQuora} />
           </a>
